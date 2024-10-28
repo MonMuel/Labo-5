@@ -1,21 +1,24 @@
-.grille1{
-    display:grid;
+.grille1 {
+    display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr;
     width: 800px;
     height: 300px;
-    margin:auto;
-    border:solid;
-    :nth-child(odd){
+    margin: auto;
+    border: solid;
+
+    :nth-child(odd) {
         background-color: aqua;
-        border:solid;
+        border: solid;
         border-width: 5px;
     }
-    :nth-child(even){
+
+    :nth-child(even) {
         background-color: red;
-        border:solid;
+        border: solid;
         border-width: 5px;
     }
+
     font-size: 25px;
     color: green;
     margin-bottom: 15px;
@@ -24,25 +27,28 @@
 
 }
 
-.grille2{
-    display:grid;
-    grid-template-columns: 1fr 2fr 3fr ;
+.grille2 {
+    display: grid;
+    grid-template-columns: 1fr 2fr 3fr;
     grid-template-rows: 1fr 1fr 1fr;
     width: 800px;
     height: 300px;
-    margin:auto;
-    border:solid;
-    :nth-child(odd){
+    margin: auto;
+    border: solid;
+
+    :nth-child(odd) {
         background-color: aqua;
-        border:solid;
+        border: solid;
         border-width: 5px;
     }
-    :nth-child(even){
+
+    :nth-child(even) {
         background-color: red;
-        border:solid;
+        border: solid;
         border-width: 5px;
-        
+
     }
+
     font-size: 25px;
     color: green;
     margin-bottom: 15px;
@@ -50,27 +56,29 @@
     text-align: center;
 }
 
-.grille3{
-    display:grid;
-    grid-template-columns: 1fr 2fr 3fr ;
-    grid-template-rows:2fr 1fr 1fr;
+.grille3 {
+    display: grid;
+    grid-template-columns: 1fr 2fr 3fr;
+    grid-template-rows: 2fr 1fr 1fr;
     width: 800px;
     height: 300px;
-    margin:auto;
-    
-    :nth-child(odd){
+    margin: auto;
+
+    :nth-child(odd) {
         background-color: aqua;
-        margin:2px;
-        border:solid;
+        margin: 2px;
+        border: solid;
     }
-    :nth-child(even){
+
+    :nth-child(even) {
         background-color: red;
-        margin:2px;
-        border:solid;
+        margin: 2px;
+        border: solid;
     }
+
     font-size: 25px;
     color:green;
     text-align: center;
-   
+
 
 }

@@ -1,0 +1,76 @@
+.grille1{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    width: 800px;
+    height: 300px;
+    margin:auto;
+    border:solid;
+    :nth-child(odd){
+        background-color: aqua;
+        border:solid;
+        border-width: 5px;
+    }
+    :nth-child(even){
+        background-color: red;
+        border:solid;
+        border-width: 5px;
+    }
+    font-size: 25px;
+    color: green;
+    margin-bottom: 15px;
+    border-width: 1px;
+    text-align: center;
+
+}
+
+.grille2{
+    display:grid;
+    grid-template-columns: 1fr 2fr 3fr ;
+    grid-template-rows: 1fr 1fr 1fr;
+    width: 800px;
+    height: 300px;
+    margin:auto;
+    border:solid;
+    :nth-child(odd){
+        background-color: aqua;
+        border:solid;
+        border-width: 5px;
+    }
+    :nth-child(even){
+        background-color: red;
+        border:solid;
+        border-width: 5px;
+        
+    }
+    font-size: 25px;
+    color: green;
+    margin-bottom: 15px;
+    border-width: 1px;
+    text-align: center;
+}
+
+.grille3{
+    display:grid;
+    grid-template-columns: 1fr 2fr 3fr ;
+    grid-template-rows:2fr 1fr 1fr;
+    width: 800px;
+    height: 300px;
+    margin:auto;
+    
+    :nth-child(odd){
+        background-color: aqua;
+        margin:2px;
+        border:solid;
+    }
+    :nth-child(even){
+        background-color: red;
+        margin:2px;
+        border:solid;
+    }
+    font-size: 25px;
+    color:green;
+    text-align: center;
+   
+
+}

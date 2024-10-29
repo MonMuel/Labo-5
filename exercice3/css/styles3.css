@@ -5,6 +5,7 @@
     height: 500px;
     grid-template-rows: repeat(7, 1fr);
     grid-template-columns: repeat(4, 1fr);
+    
 
 }
 
@@ -13,6 +14,8 @@ header {
     background-color: rgb(27, 255, 206);
     grid-row: 1/2;
     border: solid white;
+    padding: 10px;
+
 }
 
 aside {
@@ -20,6 +23,8 @@ aside {
     grid-column: 1/2;
     background-color: rgb(27, 255, 206);
     border: solid white;
+    padding: 10px;
+
 }
 
 main {
@@ -27,6 +32,8 @@ main {
     grid-column: 2/5;
     background-color: rgb(27, 255, 206);
     border: solid white;
+    padding: 10px;
+
 }
 
 nav {
@@ -34,6 +41,8 @@ nav {
     grid-column: 1/5;
     background-color: rgb(27, 255, 206);
     border: solid white;
+    padding: 10px;
+
 }
 
 footer {
@@ -41,4 +50,6 @@ footer {
     grid-column: 1/5;
     background-color: rgb(27, 255, 206);
     border: solid white;
+    padding: 10px;
+
 }
